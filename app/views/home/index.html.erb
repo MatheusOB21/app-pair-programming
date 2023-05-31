@@ -1,10 +1,7 @@
 <h1> Projeto Star Wars</h1>
 
   <div>
-    Tatooine
-    Alderaan
-    Yavin IV
-    Hoth
-    Dagobar
-    Naboo
+<% @worlds.each do |world| %>
+  <%= world["residents"] %>
+<% end %>  
   </div>

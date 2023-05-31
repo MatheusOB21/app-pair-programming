@@ -16,9 +16,8 @@ describe 'Usuário visita homepage' do
     expect(page).to have_content "Alderaan"
     expect(page).to have_content "Yavin IV"
     expect(page).to have_content "Hoth"
-    expect(page).to have_content "Dagobar"
+    expect(page).to have_content "Dagobah"
     expect(page).to have_content "Naboo"
-
     
   end
   
