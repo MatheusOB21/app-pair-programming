@@ -1,7 +1,11 @@
 <h1> Projeto Star Wars</h1>
 
   <div>
-<% @worlds.each do |world| %>
-  <%= world["residents"] %>
-<% end %>  
+  <% @worlds.each do |world| %>
+    <div>
+      <%= world["name"]%>
+      <%= world["height"]%>
+      <%= world["birth_year"]%>
+    <div>  
+  <% end %>
   </div>
